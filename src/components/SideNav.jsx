@@ -1,4 +1,4 @@
-// src/components/SideNav.jsx
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,8 +9,9 @@ const SideNav = () => {
     <div style={{
       backgroundColor: 'lightblue',
       color: 'black',
-      width: '200px',
-      border: '1px solid black',
+      width: '100%',
+      maxWidth: '200px',
+      border: '2px solid black',
       padding: '10px',
       fontFamily: 'Arial, sans-serif'
     }}>
@@ -31,7 +32,7 @@ const SideNav = () => {
               <FontAwesomeIcon icon={faHome} /> Home
             </Link>
           </li>
-          {/* Add more navigation links if needed */}
+          {/*We can Add more navigation links if needed */}
         </ul>
       </nav>
     </div>

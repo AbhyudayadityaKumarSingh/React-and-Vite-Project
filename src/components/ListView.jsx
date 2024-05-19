@@ -1,4 +1,4 @@
-// src/components/ListView.jsx
+
 import React, { useState, useEffect, useRef } from 'react';
 import { fetchBreeds } from '../api';
 import { useNavigate } from 'react-router-dom';
